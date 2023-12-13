@@ -37,3 +37,5 @@ jobs:
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
 
+# when commit changes to ignore pipeline to run, write [skip ci]
+
